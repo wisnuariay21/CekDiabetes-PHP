@@ -1,0 +1,117 @@
+[
+    {
+        "name": "php-ai/php-ml",
+        "version": "0.7.0",
+        "version_normalized": "0.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-ai/php-ml.git",
+            "reference": "db95db3e57475df53d602b32c4451438c21e46c3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-ai/php-ml/zipball/db95db3e57475df53d602b32c4451438c21e46c3",
+            "reference": "db95db3e57475df53d602b32c4451438c21e46c3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "phpbench/phpbench": "^0.14.0",
+            "phpstan/phpstan-phpunit": "^0.10",
+            "phpstan/phpstan-shim": "^0.10",
+            "phpstan/phpstan-strict-rules": "^0.10",
+            "phpunit/phpunit": "^7.0.0",
+            "symplify/coding-standard": "^5.1",
+            "symplify/easy-coding-standard": "^5.1"
+        },
+        "time": "2018-11-07T18:40:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Phpml\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Arkadiusz Kondas",
+                "email": "arkadiusz.kondas@gmail.com"
+            }
+        ],
+        "description": "PHP-ML - Machine Learning library for PHP",
+        "homepage": "https://github.com/php-ai/php-ml",
+        "keywords": [
+            "Neural network",
+            "artificial intelligence",
+            "computational learning theory",
+            "data science",
+            "feature extraction",
+            "machine learning",
+            "pattern recognition"
+        ]
+    },
+    {
+        "name": "sastrawi/sastrawi",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sastrawi/sastrawi.git",
+            "reference": "31fd4261dd4980cc57447f44d1aec4bd69e2abec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sastrawi/sastrawi/zipball/31fd4261dd4980cc57447f44d1aec4bd69e2abec",
+            "reference": "31fd4261dd4980cc57447f44d1aec4bd69e2abec",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.8.7",
+            "squizlabs/php_codesniffer": "~1.0"
+        },
+        "time": "2016-10-22T03:19:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sastrawi\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Andy Librian",
+                "email": "andylibrian@gmail.com",
+                "homepage": "http://andylibrian.com",
+                "role": "Lead Developer"
+            }
+        ],
+        "description": "PHP library for stemming Indonesian language (Bahasa Indonesia)",
+        "homepage": "https://github.com/sastrawi/sastrawi",
+        "keywords": [
+            "bahasa",
+            "indonesia",
+            "indonesian",
+            "kata dasar",
+            "root word",
+            "stem"
+        ]
+    }
+]
